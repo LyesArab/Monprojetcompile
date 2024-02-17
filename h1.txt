@@ -1,0 +1,6 @@
+INT Q;
+/SJSDH/
+int Q;
+BEGIN 
+END
+

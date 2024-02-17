@@ -1,0 +1,74 @@
+package exercice;
+import java.awt.*;
+import javax.swing.*;  
+public class Met1Event extends JFrame{ 
+	JPanel pan=new JPanel ();
+	JLabel lab =new JLabel("DEVISES");
+	JPanel pan1 = new JPanel ();
+	JTextField entrée=new JTextField(15); 
+	JTextField entrée2=new JTextField(15); 
+	JPanel pan2 = new JPanel ();
+  public Met1Event (){   
+  this.setTitle("Bouton"); 
+      this.setSize(500, 150); 
+      this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+      this.setLocationRelativeTo(null);
+      pan1.setBackground(Color.ORANGE);
+      pan1.add(lab);
+      pan.setLayout(new BorderLayout());
+      pan.add(pan1,BorderLayout.NORTH);
+      pan.add(new JButton ("convertir"),BorderLayout.SOUTH);
+     
+      entrée.setText("100");
+      entrée.setEditable(true);
+      entrée.setHorizontalAlignment(JTextField.CENTER);
+      pan2.add(new JLabel("dinars"), BorderLayout.CENTER); 
+      pan2.add(entrée,BorderLayout.CENTER);
+      
+      
+      entrée2.setText("0");
+      entrée2.setEditable(true);
+      entrée2.setHorizontalAlignment(JTextField.CENTER);
+      pan2.add(new JLabel("euro"), BorderLayout.CENTER); 
+      pan2.add(entrée2,BorderLayout.CENTER);
+      pan.add(pan2,BorderLayout.CENTER);
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      this.setContentPane(pan);
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      this.setVisible(true); 
+  }   
+  public static void main(String[] args){ 
+	  Met1Event fenG= new Met1Event (); 
+  } 
+}
+
+
+ 
+ 

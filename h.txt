@@ -1,0 +1,14 @@
+INT A;
+FLOAT B;
+INT A,G;
+const int Q=4;
+BEGIN
+/SJSDH/
+A=B;
+W=(Q+E)/Y;
+Z=(Q+E)*Y;
+if(W<2){if(W<2){}}
+for(I=2,W<2,I++){for(I=2,W<2,I++){}}
+END
+
+
